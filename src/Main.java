@@ -42,9 +42,6 @@ public class Main {
             System.out.println("Would you like to continue? Y/N ");
 
             letterToContinue = scan.next().toUpperCase();
-            //if (!letterToContinue.equals("Y") || (!letterToContinue.equals("N"))) {
-                System.out.println("Invalid entry.");
-           // }
 
         } while (letterToContinue.equals("Y"));
 

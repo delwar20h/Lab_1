@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
 
         // Input
-
         Scanner scan = new Scanner(System.in);
         double length;
         double width;
@@ -14,6 +13,8 @@ public class Main {
         double perimeter;
         double volume;
         String letterToContinue;
+
+        System.out.println("Welcome to Grand Circus' Room Detail Generator!");
 
         do {
             System.out.print("Enter classroom length: ");
@@ -42,9 +43,6 @@ public class Main {
             System.out.println("Would you like to continue? Y/N ");
 
             letterToContinue = scan.next().toUpperCase();
-
         } while (letterToContinue.equals("Y"));
-
-
     }
 }
